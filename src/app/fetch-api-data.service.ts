@@ -9,7 +9,8 @@ import { Observable, throwError, catchError } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 //Declaring the api url that will provide data for the client app
-const apiUrl = 'YOUR_HOSTED_API_URL_HERE/';
+// TODO
+const apiUrl = 'http://localhost:8080/';
 
 @Injectable({
   providedIn: 'root',
